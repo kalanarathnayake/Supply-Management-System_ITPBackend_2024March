@@ -1,4 +1,4 @@
-const Supply = require('../../model/supplyManagementModel/Supply.model');
+const Supply = require('../../model/supplyManagementModel/supply.model');
 
 
 // Create Supply function
