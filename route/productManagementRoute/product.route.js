@@ -9,11 +9,11 @@ const {
 
 } = require("../../controller/ProductManagementController/Product.controller");
 
-router.get("/add", getProducts);
+router.get("/", getProducts);
 
 router.get("/:id", getProductById);
 
-router.post("/", addProduct);
+router.post("/add", addProduct);
 
 router.put("/:id", updateProduct);
 
